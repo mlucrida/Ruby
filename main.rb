@@ -25,6 +25,7 @@ def main
     puts "#{Text}"
 end
 
+main
 
 #puts Math("SUBTRACT",1.2,2)
 
@@ -32,6 +33,6 @@ end
 
 #Iter(10)
 
-Basics = BasicRuby. new
+Basics = BasicRuby.new
 
-puts Basics.Math("ADD")
+puts "#{Basics.Iter(10)}"

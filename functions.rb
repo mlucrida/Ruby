@@ -47,11 +47,22 @@ class BasicRuby
     #
     # used to test the following :
     #   # loop syntax
+    #   # create array
+    #   # modify array
+    #   # block evaluation
     def Iter(val)
+
+        # initialize block array
+        nums = Array.new(val) {|e| e = e * (3*val)}
         $i = 0
         while $i < val do
-            puts("Loop #$i")
+            initial_val = nums[$i]
+
+            # modify array
+            new_val = initial_val - val
+            puts("nums[#$i] : #{initial_val} => #{new_val}")
             $i += 1
         end
+        return nums
     end
 end
