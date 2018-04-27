@@ -1,24 +1,8 @@
-=begin
-    Try the following:
-
-    BASICS:
-        print function X 
-        operators X
-        variables X
-        functions x
-        boolean x
-        loops x
-        classes x
-        importing x 
-
-    ADVANCE:
-
-    RUBY SPECIFIC:
-
-=end
-
 require "./Ruby/BasicClass.rb"   # Basic Ruby Programming
 require "./Ruby/IntermediateClass.rb"  # Advanced Ruby Programming
+
+include Module1
+include Module2
 
  Text = "Hello World!"
 
@@ -27,6 +11,9 @@ def main
 end
 
 main
+
+Module2.method
+#Below are test calls to the classes
 
 #puts Math("SUBTRACT",1.2,2)
 

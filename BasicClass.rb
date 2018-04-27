@@ -1,4 +1,16 @@
+=begin
+Try the following:
 
+BASICS:
+    print function X 
+    operators X
+    variables X
+    functions x
+    boolean x
+    loops x
+    classes x
+    importing x 
+=end
 
 ## Class that wraps basic ruby code into a class
 class BasicRuby
