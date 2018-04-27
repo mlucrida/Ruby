@@ -17,7 +17,8 @@
 
 =end
 
-require "./Ruby/functions.rb"
+require "./Ruby/BasicClass.rb"   # Basic Ruby Programming
+require "./Ruby/IntermediateClass.rb"  # Advanced Ruby Programming
 
  Text = "Hello World!"
 
@@ -33,6 +34,14 @@ main
 
 #Iter(10)
 
-Basics = BasicRuby.new
+#Basics = BasicRuby.new
+#puts "#{Basics.Iter(10)}"
 
-puts "#{Basics.Iter(10)}"
+Intermediate = IntermediateRuby.new
+SubClass = Inherit.new
+
+#Intermediate.YieldTesting
+
+SubClass.ExceptionHandling
+#SubClass.InheritFunction
+#SubClass.YieldTesting
