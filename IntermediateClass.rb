@@ -9,18 +9,6 @@ INTERMEDIATE:
     Modules / Namespaces
 =end
 
-module Module1
-    def method
-            puts "From Module 1"
-    end
-end
-
-module Module2
-    def method
-            puts "From Module 2"
-    end
-end
-
 # class initialized to test out inheritance 
 class IntermediateRuby
 

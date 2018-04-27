@@ -1,8 +1,6 @@
 require "./Ruby/BasicClass.rb"   # Basic Ruby Programming
 require "./Ruby/IntermediateClass.rb"  # Advanced Ruby Programming
 
-include Module1
-include Module2
 
  Text = "Hello World!"
 
@@ -12,7 +10,6 @@ end
 
 main
 
-Module2.method
 #Below are test calls to the classes
 
 #puts Math("SUBTRACT",1.2,2)
