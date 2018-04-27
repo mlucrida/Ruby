@@ -17,9 +17,7 @@
 
 =end
 
-#require "C:/Users/Matt/Documents/VSCode/Ruby/Trial/functions.rb"
-require "./functions.rb"
-#require "functions.rb"
+require "./Ruby/functions.rb"
 
  Text = "Hello World!"
 
